@@ -53,8 +53,8 @@ func OpenFile(filepath string) error {
 
 func main() {
 
-	host := "<serv-ip>:8000" // CHANGE ME
-	dir := "popups"          // "popups" or "memes"
+	host := "localhost:8000" // CHANGE ME
+	dir := "potato"          // "popups" or "memes"
 
 	// Seed our random number generator
 	rand.Seed(time.Now().UnixNano())
