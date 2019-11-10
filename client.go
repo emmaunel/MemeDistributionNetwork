@@ -53,7 +53,7 @@ func OpenFile(filepath string) error {
 
 func main() {
 
-	host := "localhost:8000" // CHANGE ME
+	host := "0.0.0.0:8000" // CHANGE ME
 	dir := "potato"          // "popups" or "memes"
 
 	// Seed our random number generator
